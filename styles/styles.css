@@ -53,3 +53,41 @@ hr {
     font-weight: 400;
     size: 24px;
 }
+
+/*Footer*/
+footer {
+    background: #10367C;
+}
+
+.link__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link__list {
+    width: 33.3%;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-bottom: 64px;
+}
+.link__title {
+    font-weight: 500;
+}
+ul.link__list > li {
+    padding-bottom: 24px;
+    list-style: none;
+
+
+}
+ul.link__list > li>a{
+    font-weight: 400;
+}
+ul.link__list > li>a:hover {
+
+border-bottom:2px solid #F5BD41;
+}
+.footer__text {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
